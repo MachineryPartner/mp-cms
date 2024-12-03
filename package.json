@@ -19,6 +19,8 @@
     "@planetary/sanity-plugin-preflight": "^1.1.1",
     "@sanity/code-input": "^4.1.4",
     "@sanity/color-input": "^4.0.1",
+    "@sanity/document-internationalization": "^3.2.0",
+    "@sanity/language-filter": "^4.0.2",
     "@sanity/types": "^3.65.0",
     "@sanity/ui": "^2.8.25",
     "@sanity/vision": "^3.65.1",
@@ -26,6 +28,8 @@
     "react-dom": "^18.2.0",
     "react-player": "^2.16.0",
     "sanity": "^3.65.1",
+    "sanity-plugin-google-translate": "^3.0.0",
+    "sanity-plugin-internationalized-array": "^3.0.2",
     "sanity-plugin-media": "^2.3.2",
     "styled-components": "^6.1.8"
   },

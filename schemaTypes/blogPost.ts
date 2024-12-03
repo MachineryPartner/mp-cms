@@ -34,6 +34,13 @@ export default defineType({
       validation: (Rule) => Rule.required().error('Title is required'),
       group: 'content',
     }),
+    // defineField({
+    //   name: 'heading',
+    //   title: 'Heading',
+    //   type: 'localizedString',
+    //   validation: (Rule) => Rule.required().error('Heading is required'),
+    //   group: 'content',
+    // }),
     defineField({
       name: 'slug',
       title: 'Slug',
@@ -309,7 +316,13 @@ export default defineType({
           return true
         }).warning(),
       group: 'seo',
-    })
+    }),
+    defineField({
+      name: 'language',
+      title: 'Language',
+      type: 'string',
+      group: 'meta',
+    }),
   ],
   preview: {
     select: {
